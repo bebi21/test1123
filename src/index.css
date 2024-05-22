@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.table-data .ant-pagination-item {
+  border-radius: 50%;
+  background-color: yellow;
+  border: none;
+}
+.table-data .ant-pagination-item-active a {
+  color: black;
+}
+.table-data .ant-pagination-prev {
+  display: none;
+}
+
+.table-data .ant-pagination-next {
+  display: none;
+}
+
+.table-data .ant-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
